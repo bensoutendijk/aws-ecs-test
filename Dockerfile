@@ -1,4 +1,5 @@
-FROM digitalocean/flask-helloworld
+FROM itzg/minecraft-server
 
+ENV EULA=TRUE
 
-EXPOSE 5000
+EXPOSE 25565
